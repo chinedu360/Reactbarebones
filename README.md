@@ -97,7 +97,7 @@ This boilerplate provides a solid foundation for building modern web application
    Run Tests (if applicable)
 
    ```shell
-       npm run test
+    npm run test
    ```
 
 4. **Removing the old `.git` Directory**:
