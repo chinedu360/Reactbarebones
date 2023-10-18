@@ -3,14 +3,23 @@
 A barebones React application with the following features pre-configured:
 
 - React (Frontend Library)
+
 - Redux Toolkit (State Management)
+
 - React Router DOM (Client-Side Routing)
+
 - React Icons (Icon Library)
+
 - Tailwind CSS (Utility-First CSS Framework)
+
 - Chakra UI (React UI Library)
+
 - Vite (Build Tool)
+
 - API Layer Integration (Axios, Fetch, etc.)
+
 - Pre-configured Layouts
+
 - Vitest for testing
 
 ### Project Overview
@@ -49,23 +58,23 @@ This boilerplate provides a solid foundation for building modern web application
 
 2. **Rename folder**:
 
-MacOS/Linux
+   MacOS/Linux
 
-```shell
-mv Reactbarebones Your-preferred-project-name
-```
+   ```shell
+   mv Reactbarebones Your-preferred-project-name
+   ```
 
-On Windows
+   On Windows
 
-```shell
-ren Reactbarebones Your-preferred-project-name
-```
+   ```shell
+   ren Reactbarebones Your-preferred-project-name
+   ```
 
-Navigate to renamed folder
+   Navigate to renamed folder
 
-```shell
-cd Your-preferred-project-name
-```
+   ```shell
+   cd Your-preferred-project-name
+   ```
 
 3. **Install Dependencies**:
 
@@ -73,39 +82,39 @@ cd Your-preferred-project-name
    npm install
    ```
 
-Start the development server
+   Start the development server
 
-```shell
-npm run dev
-```
+   ```shell
+   npm run dev
+   ```
 
-Build for Production
+   Build for Production
 
-```shell
-npm run build
-```
+   ```shell
+   npm run build
+   ```
 
-Run Tests (if applicable)
+   Run Tests (if applicable)
 
-```shell
-    npm run test
-```
+   ```shell
+       npm run test
+   ```
 
 4. **Removing the old `.git` Directory**:
 
-In other to use git in the project, you have to remove the old `.git` directory
+   In other to use git in the project, you have to remove the old `.git` directory
 
-MacOS/Linux
+   MacOS/Linux
 
-    ```shell
-    rm -rf .git
-    ```
+   ```shell
+   rm -rf .git
+   ```
 
-Windows
+   Windows
 
-    ```shell
-    rmdir /s /q .git
-    ```
+   ```shell
+   rmdir /s /q .git
+   ```
 
 5. **Initialize a New Git Repository**:
 
