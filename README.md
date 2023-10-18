@@ -13,11 +13,11 @@ A barebones React application with the following features pre-configured:
 - Pre-configured Layouts
 - Vitest for testing
 
-## Project Overview
+### Project Overview
 
 This boilerplate provides a solid foundation for building modern web applications using React and associated libraries. It includes commonly used tools and configurations to help you get started quickly and build maintainable, production-ready applications.
 
-## Features
+### Features
 
 - **React**: The project uses React as the core frontend library to create components and manage the user interface.
 
@@ -37,37 +37,91 @@ This boilerplate provides a solid foundation for building modern web application
 
 - **Pre-configured Layouts**: Common layouts and styling are provided to help you get started with your project's structure.
 
-## Getting Started
+### Getting Started
 
 1. **Clone the repository**:
 
    ```shell
-   git clone https://github.com/your-username/your-project.git
-   cd your-project
+   git clone https://github.com/chinedu360/Reactbarebones.git
+
+   cd Reactbarebones
    ```
 
-## Install Dependencies
+2. **Rename folder**:
+
+MacOS/Linux
+
+```shell
+mv Reactbarebones Your-preferred-project-name
+```
+
+On Windows
+
+```shell
+ren Reactbarebones Your-preferred-project-name
+```
+
+Navigate to renamed folder
+
+```shell
+cd Your-preferred-project-name
+```
+
+3. **Install Dependencies**:
+
+   ```shell
+   npm install
+   ```
+
+Start the development server
+
+```shell
+npm run dev
+```
+
+Build for Production
+
+```shell
+npm run build
+```
+
+Run Tests (if applicable)
+
+```shell
+    npm run test
+```
+
+4. **Removing the old `.git` Directory**:
+
+In other to use git in the project, you have to remove the old `.git` directory
+
+MacOS/Linux
 
     ```shell
-    npm install
+    rm -rf .git
+    ```
 
-    Start the development server:
-    `npm run dev
-    `
-    Build for Production:
-    `npm run build
-    `
-    Run Tests (if applicable):
-    `npm run test
-    `
+Windows
 
-# Configure API Layer:
+    ```shell
+    rmdir /s /q .git
+    ```
 
-    Update the API configurations in the src/api directory to connect to your backend or external services.
+5. **Initialize a New Git Repository**:
 
-# Customize Layout and Components:
+   ```shell
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
 
-    Replace or extend the components and styles according to your project's requirements.
+### Configure API Layer:
+
+Update the API configurations in the src/api directory to connect to your backend or external services.
+
+### Customize Layout and Components:
+
+Replace or extend the components and styles according to your project's requirements.
 
 **Project Structure**
 
@@ -116,9 +170,9 @@ This boilerplate provides a solid foundation for building modern web application
 - `vite.config.js` - Vite configuration file.
 
 ### Contributing
-    Contributions are welcome! If you have improvements, bug fixes, or new features to suggest, please submit a pull request.
+
+Contributions are welcome! If you have improvements, bug fixes, or new features to suggest, please submit a pull request.
 
 ### License
-    This project is open-source and available under the MIT License.
 
-```
+This project is open-source and available under the MIT License.
